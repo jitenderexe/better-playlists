@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-let defaultTextColor = '#000';
 let defaultStyle = {
-  color:defaultTextColor
+  color:'#000'
 };
 
 class Aggregate extends Component {
@@ -53,7 +51,10 @@ class App extends Component {
       <Aggregate/>
       <Aggregate/>
       <Filter/>
-      <Playlist/><Playlist/><Playlist/><Playlist/>
+      <Playlist/>
+      <Playlist/>
+      <Playlist/>
+      <Playlist/>
       </div>
     );
   }
